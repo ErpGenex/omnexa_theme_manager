@@ -1,0 +1,35 @@
+{
+ "allow_roles": [
+  {
+   "role": "Desk User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "creation": "2026-04-20 00:31:43.139668",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://frappe.io/framework",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2026-07-11 14:37:34.628381",
+ "modified_by": "Administrator",
+ "module": "Theme Manager",
+ "name": "ERPGENEX \u2014 Theme Manager",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "ERPGENEX-WS-theme_manager-01-experience_tenant_theme"
+  },
+  {
+   "step": "ERPGENEX-WS-theme_manager-02-experience_tenant_theme"
+  },
+  {
+   "step": "ERPGENEX-WS-theme_manager-home"
+  }
+ ],
+ "subtitle": "Guided setup for this workspace.",
+ "success_message": "You are ready to work in Theme Manager.",
+ "title": "Theme Manager"
+}

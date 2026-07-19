@@ -1,0 +1,71 @@
+/* Experience Tenant Theme — form detail layout (scoped via body class from client script) */
+
+/* Keep many custom actions inside the header: wrap + allow inner “group” dropdowns to shrink */
+body.omnexa-experience-tenant-theme-page .page-head .page-actions {
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	row-gap: 0.35rem;
+	min-width: 0;
+}
+
+body.omnexa-experience-tenant-theme-page .page-head .custom-actions {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 0.35rem;
+	max-width: 100%;
+	min-width: 0;
+}
+
+body.omnexa-experience-tenant-theme-page .page-head .custom-actions > .btn,
+body.omnexa-experience-tenant-theme-page .page-head .custom-actions .inner-group-button > .btn {
+	max-width: 100%;
+}
+
+body.omnexa-experience-tenant-theme-page .page-head .inner-group-button .dropdown-menu {
+	max-height: 70vh;
+	overflow-y: auto;
+}
+
+body.omnexa-experience-tenant-theme-page .page-head {
+	border-bottom: 1px solid var(--egx-border, rgba(15, 23, 42, 0.09));
+}
+
+body.omnexa-experience-tenant-theme-page .form-message.blue {
+	border-radius: var(--egx-radius, 10px);
+	border: 1px solid color-mix(in srgb, var(--egx-primary, #2563eb) 28%, transparent);
+	background: color-mix(in srgb, var(--egx-primary, #2563eb) 6%, var(--egx-surface, #fff));
+	padding: 0.85rem 1rem;
+	margin-bottom: 1rem;
+	line-height: 1.55;
+}
+
+body.omnexa-experience-tenant-theme-page .form-section .section-head,
+body.omnexa-experience-tenant-theme-page .form-dashboard-section .section-head {
+	font-size: 0.95rem;
+	letter-spacing: 0.01em;
+}
+
+body.omnexa-experience-tenant-theme-page .form-column.col-sm-6 {
+	padding-bottom: 0.35rem;
+}
+
+/* Colour token row: tighter grid on wide screens */
+@media (min-width: 992px) {
+	body.omnexa-experience-tenant-theme-page .form-layout .form-page .row.form-section .section-body .form-column {
+		max-width: 50%;
+	}
+}
+
+body.omnexa-experience-tenant-theme-page .control-input-wrapper .like-disabled-input {
+	min-height: 2.25rem;
+}
+
+body.omnexa-experience-tenant-theme-page .frappe-control[data-fieldtype="Color"] .control-input {
+	border-radius: calc(var(--egx-radius, 10px) - 2px);
+}
+
+body.omnexa-experience-tenant-theme-page .std-form-layout {
+	padding-top: 0.25rem;
+}

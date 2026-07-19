@@ -1,0 +1,69 @@
+{
+ "charts": [],
+ "content": "[{\"id\": \"erpgenex-onboarding\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"ERPGENEX — Theme Manager\", \"col\": 12}}, {\"id\": \"tm-h1\", \"type\": \"header\", \"data\": {\"text\": \"<div class=\\\"omnexa-tm-heading\\\"><span class=\\\"h4\\\"><b>Theme Manager</b></span><p class=\\\"text-muted\\\" style=\\\"margin-top:10px;margin-bottom:0;max-width:52rem;line-height:1.5\\\">Design Desk themes per company without code. Save multiple themes, upload your logo, tune colors and typography, then activate one for Desk from the list—other saved themes stay intact. Use JSON import/export for backups. Optional personal desk tweaks (Theme button or <b>Alt+Shift+T</b>) are stored in your browser only.</p></div>\", \"col\": 12}}, {\"id\": \"tm-c1\", \"type\": \"card\", \"data\": {\"card_name\": \"Company & desk themes\", \"col\": 4}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "es-line-colour",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Theme Manager",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Company & desk themes",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Experience Tenant Theme",
+   "link_count": 0,
+   "link_to": "Experience Tenant Theme",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-19 00:00:00",
+ "modified_by": "Administrator",
+ "module": "Theme Manager",
+ "name": "Theme Manager",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "doctype": "Has Role",
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 48.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "icon": "es-line-filetype",
+   "label": "All tenant themes",
+   "link_to": "Experience Tenant Theme",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "icon": "es-line-add",
+   "label": "New tenant theme",
+   "link_to": "Experience Tenant Theme",
+   "type": "DocType"
+  }
+ ],
+ "title": "Theme Manager"
+}

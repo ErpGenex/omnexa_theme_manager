@@ -1,0 +1,117 @@
+Activate for Desk,Activate لـ Desk
+Active Desk Theme,نشط Desk سمة
+Active for Desk,نشط لـ Desk
+"Add the app to this bench (apps folder + apps.txt), then use Install.","إضافة the app إلى this bench (apps folder + apps. txt), then use Install."
+"After changing runtime or apps, reload this page (F5) so the Desk loads the correct scripts.","After changing runtime or apps, reload this page (F5) so the Desk loads the correct scripts."
+All tenant themes,All مستأجر themes
+"App {0} is not available on this bench. Add it under apps/ and apps.txt, then try again.","App { 0 } is not متاح on this bench. إضافة it under apps و apps. txt, then try again."
+Apply ERPGenEx 0426 preset,Apply ERPGen Ex 0426 preset
+Background,Background
+Brand,Brand
+Cannot enable runtime theme: app {0} is not installed on this site.,Cannot enable runtime سمة: app { 0 } is not installed on this موقع.
+Cannot uninstall {0}: required by {1}. Remove those apps from the site first.,Cannot uninstall { 0 }: required حسب { 1 }. Remove those apps from the موقع first.
+Changing “Theme preset” updates colours and previews the Desk when “Apply to Desk” is checked. Save to persist. Use “Activate for Desk” if another row is active.,Changing “ سمة preset ” updates colours و previews the Desk when “ Apply إلى Desk ” is checked. Save إلى persist. Use “ Activate لـ Desk ” if another row is نشط.
+Choose a file first.,Choose a file first.
+Choose a JSON file.,Choose a JSON file.
+Company & desk themes,شركة & desk themes
+Company mismatch,شركة mismatch
+Compare with active public,Compare with نشط public
+Desk colours updated.,Desk colours updated.
+Desk theme activated.,Desk سمة activated.
+Desk theme applied in this browser.,Desk سمة applied in this browser.
+"Desk theme is per company: one active row per company. To switch again, pick another row for the same company (or change your Session Default company), then Activate for Desk or Apply to Desk → Save.","Desk سمة is per شركة: one نشط row per شركة. إلى switch again, pick another row لـ the same شركة (or change your Session افتراضي شركة), then Activate لـ Desk or Apply إلى Desk → Save."
+Desk theme runtime disabled. Reload the page.,Desk سمة runtime disabled. Reload the page.
+Desk theme runtime enabled. Reload the page.,Desk سمة runtime enabled. Reload the page.
+Desk theme runtime is off,Desk سمة runtime is off
+Desk theme runtime was turned on. Reloading the page…,Desk سمة runtime was turned on. Reloading the page …
+Desk theme runtime: off,Desk سمة runtime: off
+Desk theme runtime: on,Desk سمة runtime: on
+Diff vs active public theme,Diff vs نشط public سمة
+Disable desk theme,Disable desk سمة
+"Disable desk theme runtime first, then remove the runtime app.","Disable desk سمة runtime first, then remove the runtime app."
+Disables ERPGenEx desk styling on this site and reloads the page. Same as “Disable desk theme” in site config.,Disables ERPGen Ex desk styling on this موقع و reloads the page. Same as “ Disable desk سمة ” in موقع config.
+Download started.,Download started.
+Each row is one saved theme for a company. Activating for Desk only marks that row active; other rows are kept.,Each row is one saved سمة لـ a شركة. Activating لـ Desk only marks that row نشط; other rows are kept.
+Enable desk theme,Enable desk سمة
+ERPGenEx desk CSS/JS are not loaded for this site until the runtime is enabled.,ERPGen Ex desk CSS JS are not loaded لـ this موقع until the runtime is enabled.
+Existing theme name (optional),Existing سمة اسم (optional)
+Experience Tenant Theme,تجربة مستأجر سمة
+Export JSON,Export JSON
+File must be UTF-8 text.,File must be UTF - 8 text.
+Frappe default desk,Frappe افتراضي desk
+Frappe default desk (whole site),Frappe افتراضي desk (whole موقع)
+Help,مساعدة
+How themes work,How themes work
+Import,Import
+Import theme from clipboard,Import سمة from clipboard
+Install the ERPGenEx desk theme app on this site? This may take a minute and runs database updates.,Install the ERPGen Ex desk سمة app on this موقع ? This may take a minute و runs database updates.
+Install theme app on site,Install سمة app on موقع
+Invalid JSON in file.,Invalid JSON in file.
+Invalid JSON.,Invalid JSON.
+JSON,JSON
+JSON file,JSON file
+JSON root must be an object.,JSON root must be an object.
+Leave empty to create a new document (company must be present in JSON).,Leave empty إلى create a جديد مستند (شركة must be present in JSON).
+"Leave empty to create a new theme. If set, values from the file update that document.","Leave empty إلى create a جديد سمة. If set, values from the file تحديث that مستند."
+Login required.,Login required.
+Merge into existing theme (optional),Merge into existing سمة (optional)
+New tenant theme,جديد مستأجر سمة
+No active published theme for this company.,No نشط published سمة لـ this شركة.
+No differences.,No differences.
+Not permitted,Not permitted
+Open a theme record to upload a logo and adjust colors. Contrast rules protect readability.,مفتوح a سمة سجل إلى upload a logo و adjust colors. Contrast rules protect readability.
+Open desk theme studio,مفتوح desk سمة studio
+Open theme list,مفتوح سمة قائمة
+Paste JSON,Paste JSON
+Personal tweaks,Personal tweaks
+Phrase does not match. No changes.,Phrase does not match. No changes.
+"Pick a company, choose a preset, then adjust colours. Save with “Apply to Desk” checked, or use “Activate for Desk” after saving.","Pick a شركة, choose a preset, then adjust colours. Save with “ Apply إلى Desk ” checked, or use “ Activate لـ Desk ” after saving."
+Preset,Preset
+Preview HTML head,Preview HTML head
+Primary,Primary
+Public website,Public website
+Publish history,Publish history
+Publish to public site,Publish إلى public موقع
+Reload desk colours,Reload desk colours
+Reload the page after saving a theme with “Apply to Desk”.,Reload the page after saving a سمة with “ Apply إلى Desk ”.
+Remove the desk theme app from this site? A backup may run first. You cannot remove it while other installed apps list it as a dependency.,Remove the desk سمة app from this موقع ? A نسخ احتياطي may run first. You cannot remove it while other installed apps قائمة it as a dependency.
+Remove theme app from site,Remove سمة app from موقع
+Rollback previous public,Rollback previous public
+Rolled back to previous public theme.,Rolled back إلى previous public سمة.
+Save & switch,Save & switch
+Select exactly one theme row first.,Select exactly one سمة row first.
+Select only one theme at a time.,Select only one سمة at a time.
+Set this document as the active Desk theme for its company? Other saved themes stay available.,Set this مستند as the نشط Desk سمة لـ its شركة ? Other saved themes stay متاح.
+Set this theme as the active Desk look for its company? Other saved themes stay available—you can switch back anytime.,Set this سمة as the نشط Desk look لـ its شركة ? Other saved themes stay متاح — you can switch back anytime.
+Standard Frappe Desk enabled. Reloading…,Standard Frappe Desk enabled. Reloading …
+Surface,Surface
+Theme,سمة
+Theme app installed. Reload the page.,سمة app installed. Reload the page.
+Theme app removed from site. Reload the page.,سمة app removed from موقع. Reload the page.
+Theme company,سمة شركة
+Theme imported successfully.,سمة imported successfully.
+Theme Manager,سمة مدير
+Theme Manager was uninstalled from this site. Reload or navigate away.,سمة مدير was uninstalled from this موقع. Reload or navigate away.
+Theme preview,سمة preview
+Theme published.,سمة published.
+Theme saved. Reload the page (Ctrl+Shift+R) if the Desk look did not update — the theme script may still be loading.,سمة saved. Reload the page (Ctrl + Shift + R) if the Desk look did not تحديث — the سمة script may still be loading.
+Theme stack & app,سمة stack & app
+Theme studio is still loading. Wait a moment or refresh the page.,سمة studio is still loading. Wait a moment or refresh the page.
+This sets the site to use the standard Frappe Desk (disables the ERPGenEx desk theme). All users will see the default Frappe look after reload. Continue?,This sets the موقع إلى use the standard Frappe Desk (disables the ERPGen Ex desk سمة). All users will see the افتراضي Frappe look after reload. Continue ?
+tm-executive-dashboard,tm - تنفيذي - لوحة معلومات
+"To confirm, type exactly: {0}","إلى confirm, نوع exactly: { 0 }"
+Tools,Tools
+Turn off ERPGenEx desk styling and use the standard Frappe Desk (site-wide).,Turn off ERPGen Ex desk styling و use the standard Frappe Desk (موقع - wide).
+"Turn the ERPGenEx desk theme on or off for this site, and install or remove the theme app on this site. System Manager only.","Turn the ERPGen Ex desk سمة on or off لـ this موقع, و install or remove the سمة app on this موقع. النظام مدير only."
+Uninstall,Uninstall
+Uninstall Theme Manager,Uninstall سمة مدير
+Uninstall Theme Manager app…,Uninstall سمة مدير app …
+Upload,Upload
+Upload theme (.json),Upload سمة (. json)
+Upload theme file,Upload سمة file
+Uploaded file was not found. Try attaching again.,Uploaded file was not found. Try attaching again.
+Use standard Frappe Desk (default theme),Use standard Frappe Desk (افتراضي سمة)
+Use “Theme stack & app” below to turn the desk theme on.,Use “ سمة stack & app ” below إلى turn the desk سمة on.
+Use “Upload theme file” with a JSON export from this system (or a compatible snapshot). Your data is validated before save.,Use “ Upload سمة file ” with a JSON export from this النظام (or a compatible لقطة). Your بيانات is validated before save.
+Using defaults (no row with “Apply to Desk”),Using defaults (no row with “ Apply إلى Desk ”)
+Your default company,Your افتراضي شركة

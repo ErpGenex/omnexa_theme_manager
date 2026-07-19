@@ -1,0 +1,126 @@
+/* omnexa_theme_manager — desk polish for Theme Manager workspace & dialogs */
+
+.omnexa-tm-heading .h4 {
+	letter-spacing: -0.02em;
+}
+
+/* Active theme banner (Theme Manager workspace) */
+.omnexa-tm-active-theme-banner {
+	margin: 0 0 1rem 0;
+	padding: 1rem 1.1rem;
+	border-radius: var(--border-radius-lg, 12px);
+	border: 1px solid var(--border-color, rgba(15, 23, 42, 0.12));
+	background: linear-gradient(
+		135deg,
+		color-mix(in srgb, var(--egx-primary, #2563eb) 9%, var(--egx-surface, #fff)),
+		var(--egx-surface, #fff)
+	);
+	box-shadow: 0 8px 28px rgba(15, 23, 42, 0.06);
+}
+
+.omnexa-tm-banner-head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 0.75rem 1.25rem;
+}
+
+.omnexa-tm-banner-title {
+	font-weight: 600;
+	font-size: 1.05rem;
+	letter-spacing: -0.02em;
+}
+
+.omnexa-tm-banner-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1.25rem;
+	font-size: 0.85rem;
+	margin-top: 0.25rem;
+}
+
+.omnexa-tm-banner-actions .btn {
+	margin-left: 0.35rem;
+}
+
+.omnexa-tm-swatches {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	margin: 0.85rem 0 0.65rem;
+	align-items: flex-end;
+}
+
+.omnexa-tm-swatch {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.25rem;
+}
+
+.omnexa-tm-swatch-chip {
+	display: block;
+	width: 52px;
+	height: 52px;
+	border-radius: 12px;
+	border: 2px solid rgba(15, 23, 42, 0.14);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+}
+
+.omnexa-tm-swatch small {
+	font-size: 0.72rem;
+	color: var(--text-muted, #74808b);
+	text-transform: capitalize;
+}
+
+/* Slightly clearer list toolbar grouping on wide screens */
+.list-row-container .list-paging-area + .page-actions {
+	margin-top: 0.25rem;
+}
+
+/* Highlight active desk theme row in list */
+.omnexa-ett-desk-active .indicator-pill {
+	font-weight: 600;
+}
+
+/* Theme stack admin (System Manager) */
+.omnexa-tm-stack-admin {
+	margin: 0 0 1rem 0;
+	padding: 1rem 1.1rem;
+	border-radius: var(--border-radius-lg, 12px);
+	border: 1px dashed var(--border-color, rgba(15, 23, 42, 0.2));
+	background: var(--control-bg, #f9fafb);
+}
+
+.omnexa-tm-stack-admin-title {
+	font-weight: 600;
+	font-size: 1rem;
+	letter-spacing: -0.02em;
+	margin-bottom: 0.35rem;
+}
+
+.omnexa-tm-stack-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 0.75rem;
+	margin: 0.65rem 0 0.75rem;
+	align-items: center;
+}
+
+.omnexa-tm-stack-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 0.65rem;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+
+.omnexa-tm-stack-actions .btn-group .btn {
+	margin-left: 0;
+}
+
+.omnexa-tm-blockers-note {
+	max-width: 56rem;
+	margin-top: 0.35rem !important;
+}
