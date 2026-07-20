@@ -19,17 +19,17 @@ app_include_js = [
 ]
 
 doctype_js = {
-	"Experience Tenant Theme": "public/js/experience_tenant_theme.js",
-}
+	"Experience Tenant Theme": "public/js/experience_tenant_theme.js"
+	}
 doctype_list_js = {
-	"Experience Tenant Theme": "public/js/experience_tenant_theme_list.js",
-}
+	"Experience Tenant Theme": "public/js/experience_tenant_theme_list.js"
+	}
 
 override_whitelisted_methods = {
 	"omnexa_experience.omnexa_experience.desk_theme.get_desk_theme_payload": "omnexa_theme_manager.desk_theme.get_desk_theme_payload",
 	"omnexa_experience.omnexa_experience.desk_theme.get_theme_studio_defaults": "omnexa_theme_manager.desk_theme.get_theme_studio_defaults",
-	"frappe.desk.desktop.get_desktop_page": "omnexa_theme_manager.desktop_page.get_desktop_page",
-}
+	"frappe.desk.desktop.get_desktop_page": "omnexa_theme_manager.desktop_page.get_desktop_page"
+	}
 
 after_install = "omnexa_theme_manager.install.after_install"
 after_migrate = "omnexa_theme_manager.install.after_migrate"

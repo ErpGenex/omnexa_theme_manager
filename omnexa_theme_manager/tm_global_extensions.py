@@ -5,8 +5,10 @@ import frappe
 
 @frappe.whitelist()
 def compute_sector_analytics(company: str | None = None) -> dict:
-	return {"company": company, "app": "omnexa_theme_manager", "kpi_score": 4.9, "status": "on_track"}
+	return {"company": company, "app": "omnexa_theme_manager", "kpi_score": 4.9, "status": "on_track"
+	}
 
 @frappe.whitelist()
 def forecast_demand_pipeline(company: str | None = None, days: int = 30) -> dict:
-	return {"company": company, "horizon_days": days, "forecast_units": 100, "confidence_pct": 85}
+	return {"company": company, "horizon_days": days, "forecast_units": 100, "confidence_pct": 85
+	}

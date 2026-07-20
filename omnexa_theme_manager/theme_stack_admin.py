@@ -62,7 +62,7 @@ def _status_dict_full() -> dict:
 		"theme_app_installed": theme_ok,
 		"manager_app_installed": manager_ok,
 		"theme_app_on_bench": on_bench,
-		"apps_blocking_theme_removal": _apps_that_require(THEME_RUNTIME_APP),
+		"apps_blocking_theme_removal": _apps_that_require(THEME_RUNTIME_APP)
 	}
 
 
@@ -77,8 +77,8 @@ def get_theme_stack_status():
 		return {
 			"ok": True,
 			"can_manage_stack": False,
-			"desk_theme_runtime_enabled": _desk_runtime_flag_from_conf(),
-		}
+			"desk_theme_runtime_enabled": _desk_runtime_flag_from_conf()
+	}
 	return _status_dict_full()
 
 
@@ -173,4 +173,5 @@ def uninstall_theme_manager_app(confirmation_phrase: str | None = None):
 
 	remove_app(MANAGER_APP, yes=True, no_backup=False)
 	frappe.clear_cache()
-	return {"ok": True, "uninstalled": True}
+	return {"ok": True, "uninstalled": True
+	}

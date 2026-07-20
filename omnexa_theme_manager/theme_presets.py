@@ -15,7 +15,7 @@ THEME_PRESETS: dict[str, dict[str, str]] = {
 		"desk_theme_mode": "light",
 		"desk_base_font_size": "16px",
 		"desk_ui_density": "comfortable",
-		"desk_radius_scale": "soft",
+		"desk_radius_scale": "soft"
 	},
 	# Ported from Midocean-Technologies/business_theme_v14
 	"business_theme_v14": {
@@ -29,7 +29,7 @@ THEME_PRESETS: dict[str, dict[str, str]] = {
 		"desk_theme_mode": "light",
 		"desk_base_font_size": "16px",
 		"desk_ui_density": "comfortable",
-		"desk_radius_scale": "classic",
+		"desk_radius_scale": "classic"
 	},
 	"global_minimal_light": {
 		"label": "Global Minimal Light",
@@ -42,7 +42,7 @@ THEME_PRESETS: dict[str, dict[str, str]] = {
 		"desk_theme_mode": "light",
 		"desk_base_font_size": "15px",
 		"desk_ui_density": "comfortable",
-		"desk_radius_scale": "classic",
+		"desk_radius_scale": "classic"
 	},
 	"global_midnight_blue": {
 		"label": "Global Midnight Blue",
@@ -55,9 +55,8 @@ THEME_PRESETS: dict[str, dict[str, str]] = {
 		"desk_theme_mode": "dark",
 		"desk_base_font_size": "16px",
 		"desk_ui_density": "comfortable",
-		"desk_radius_scale": "soft",
-	},
-}
+		"desk_radius_scale": "soft"}
+	}
 
 
 def get_theme_preset(name: str | None) -> dict[str, str]:

@@ -43,7 +43,8 @@ def get_json_from_file_url(file_url: str | None = None):
 	url = unquote(file_url.strip())
 	if url.startswith("http://") or url.startswith("https://"):
 		url = urlparse(url).path or url
-	name = frappe.db.get_value("File", {"file_url": url}, "name")
+	name = frappe.db.get_value("File", {"file_url": url
+	}, "name")
 	if not name:
 		frappe.throw(_("Uploaded file was not found. Try attaching again."), title=_("Theme"))
 	doc = frappe.get_doc("File", name)
@@ -117,7 +118,8 @@ def _theme_row_by_name(name: str | None) -> dict | None:
 		from `tabExperience Tenant Theme`
 		where name = %(name)s
 		""",
-		{"name": name},
+		{"name": name
+	},
 		as_dict=True,
 	)
 	return rows[0] if rows else None
@@ -130,18 +132,27 @@ def _compose_payload(row: dict | None) -> dict:
 		"preset": preset_name,
 		"preset_label": preset.get("label", preset_name),
 		"tokens": {
-			"primary_color": (row or {}).get("primary_color") or preset["primary_color"],
-			"primary_contrast": (row or {}).get("primary_contrast") or preset["primary_contrast"],
-			"background_color": (row or {}).get("background_color") or preset["background_color"],
-			"surface_color": (row or {}).get("surface_color") or preset["surface_color"],
-			"foreground_color": (row or {}).get("foreground_color") or preset["foreground_color"],
-			"font_stack_for_web": (row or {}).get("font_stack_for_web") or preset["font_stack_for_web"],
-			"desk_theme_mode": (row or {}).get("desk_theme_mode") or preset["desk_theme_mode"],
-			"desk_base_font_size": (row or {}).get("desk_base_font_size") or preset["desk_base_font_size"],
-			"desk_ui_density": (row or {}).get("desk_ui_density") or preset["desk_ui_density"],
-			"desk_radius_scale": (row or {}).get("desk_radius_scale") or preset["desk_radius_scale"],
-			"logo_url": (row or {}).get("logo") or (row or {}).get("logo_url") or "",
-		},
+			"primary_color": (row or {
+	}).get("primary_color") or preset["primary_color"],
+			"primary_contrast": (row or {
+	}).get("primary_contrast") or preset["primary_contrast"],
+			"background_color": (row or {
+	}).get("background_color") or preset["background_color"],
+			"surface_color": (row or {
+	}).get("surface_color") or preset["surface_color"],
+			"foreground_color": (row or {
+	}).get("foreground_color") or preset["foreground_color"],
+			"font_stack_for_web": (row or {
+	}).get("font_stack_for_web") or preset["font_stack_for_web"],
+			"desk_theme_mode": (row or {
+	}).get("desk_theme_mode") or preset["desk_theme_mode"],
+			"desk_base_font_size": (row or {
+	}).get("desk_base_font_size") or preset["desk_base_font_size"],
+			"desk_ui_density": (row or {
+	}).get("desk_ui_density") or preset["desk_ui_density"],
+			"desk_radius_scale": (row or {
+	}).get("desk_radius_scale") or preset["desk_radius_scale"],
+			"logo_url": (row or {}).get("logo") or (row or {}).get("logo_url") or ""}
 	}
 	if row:
 		payload["theme"] = row.get("name")
@@ -162,7 +173,8 @@ def get_theme_preset_tokens(preset: str | None = None):
 		frappe.throw(_("Login required."), frappe.PermissionError, title=_("Theme"))
 	p = get_theme_preset(preset)
 	tokens = {k: p[k] for k in _PRESET_TOKEN_FIELD_NAMES if k in p}
-	return {"ok": True, "preset_label": p.get("label", ""), "tokens": tokens}
+	return {"ok": True, "preset_label": p.get("label", ""), "tokens": tokens
+	}
 
 
 # Desk calls this via frappe.call, which defaults to POST. GET-only whitelists raise "Not permitted".
@@ -196,7 +208,7 @@ def get_desk_theme_payload(company: str | None = None, prefer_theme: str | None 
 		"theme": _compose_payload(row),
 		"presets": THEME_PRESETS,
 		"default_preset": "erpgenex_theme_0426",
-		"user_company": user_company,
+		"user_company": user_company
 	}
 	if row:
 		out["active_theme_company"] = row.get("company")

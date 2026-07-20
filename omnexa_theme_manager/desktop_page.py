@@ -40,8 +40,8 @@ def get_desktop_page(page):
 			"onboardings": workspace.onboardings,
 			"quick_lists": workspace.quick_lists,
 			"number_cards": workspace.number_cards,
-			"custom_blocks": workspace.custom_blocks,
-		}
+			"custom_blocks": workspace.custom_blocks
+	}
 	except DoesNotExistError:
 		frappe.log_error("Workspace Missing")
 		return {}
