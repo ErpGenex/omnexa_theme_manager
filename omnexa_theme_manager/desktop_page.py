@@ -17,6 +17,18 @@ from frappe import DoesNotExistError, _
 from frappe.desk.desktop import Workspace
 
 
+def _onboarding_names_from_payload(payload):
+	try:
+		blocks = loads(payload.get("content") or "[]")
+	except Exception:
+		return []
+	return [
+		((block.get("data") or {}).get("onboarding_name"))
+		for block in blocks
+		if (block or {}).get("type") == "onboarding" and ((block.get("data") or {}).get("onboarding_name"))
+	]
+
+
 @frappe.whitelist()
 @frappe.read_only()
 def get_desktop_page(page):
@@ -32,6 +44,10 @@ def get_desktop_page(page):
 
 	try:
 		workspace = Workspace(payload)
+		onboarding_list = getattr(workspace, "onboarding_list", None)
+		if not onboarding_list:
+			onboarding_list = _onboarding_names_from_payload(payload)
+		workspace.onboarding_list = onboarding_list or []
 		workspace.build_workspace()
 		return {
 			"charts": workspace.charts,
@@ -40,8 +56,22 @@ def get_desktop_page(page):
 			"onboardings": workspace.onboardings,
 			"quick_lists": workspace.quick_lists,
 			"number_cards": workspace.number_cards,
-			"custom_blocks": workspace.custom_blocks
-	}
+			"custom_blocks": workspace.custom_blocks,
+		}
 	except DoesNotExistError:
 		frappe.log_error("Workspace Missing")
 		return {}
+	except AttributeError as e:
+		frappe.log_error(f"Workspace build error: {str(e)}")
+		workspace = Workspace(payload)
+		if not hasattr(workspace, "onboarding_list"):
+			workspace.onboarding_list = []
+		return {
+			"charts": getattr(workspace, "charts", []),
+			"shortcuts": getattr(workspace, "shortcuts", []),
+			"cards": getattr(workspace, "cards", []),
+			"onboardings": getattr(workspace, "onboardings", {"items": []}),
+			"quick_lists": getattr(workspace, "quick_lists", []),
+			"number_cards": getattr(workspace, "number_cards", []),
+			"custom_blocks": getattr(workspace, "custom_blocks", []),
+		}
