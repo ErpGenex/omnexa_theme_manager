@@ -2,7 +2,9 @@
 # License: MIT
 import frappe
 
+from omnexa_core.omnexa_core.vertical_dashboard import build_vertical_dashboard_payload
+
+
 @frappe.whitelist()
 def get_vertical_dashboard(company: str | None = None) -> dict:
-	return {"company": company, "app": "omnexa_theme_manager", "status": "healthy", "score": 4.95
-	}
+	return build_vertical_dashboard_payload("omnexa_theme_manager", company=company)
