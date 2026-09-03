@@ -1,117 +1,300 @@
-Activate for Desk,Activate لـ Desk
-Active Desk Theme,نشط Desk سمة
-Active for Desk,نشط لـ Desk
-"Add the app to this bench (apps folder + apps.txt), then use Install.","إضافة the app إلى this bench (apps folder + apps. txt), then use Install."
-"After changing runtime or apps, reload this page (F5) so the Desk loads the correct scripts.","After changing runtime or apps, reload this page (F5) so the Desk loads the correct scripts."
-All tenant themes,All مستأجر themes
-"App {0} is not available on this bench. Add it under apps/ and apps.txt, then try again.","App { 0 } is not متاح on this bench. إضافة it under apps و apps. txt, then try again."
-Apply ERPGenEx 0426 preset,Apply ERPGen Ex 0426 preset
-Background,Background
-Brand,Brand
-Cannot enable runtime theme: app {0} is not installed on this site.,Cannot enable runtime سمة: app { 0 } is not installed on this موقع.
-Cannot uninstall {0}: required by {1}. Remove those apps from the site first.,Cannot uninstall { 0 }: required حسب { 1 }. Remove those apps from the موقع first.
-Changing “Theme preset” updates colours and previews the Desk when “Apply to Desk” is checked. Save to persist. Use “Activate for Desk” if another row is active.,Changing “ سمة preset ” updates colours و previews the Desk when “ Apply إلى Desk ” is checked. Save إلى persist. Use “ Activate لـ Desk ” if another row is نشط.
-Choose a file first.,Choose a file first.
-Choose a JSON file.,Choose a JSON file.
-Company & desk themes,شركة & desk themes
-Company mismatch,شركة mismatch
-Compare with active public,Compare with نشط public
-Desk colours updated.,Desk colours updated.
-Desk theme activated.,Desk سمة activated.
-Desk theme applied in this browser.,Desk سمة applied in this browser.
-"Desk theme is per company: one active row per company. To switch again, pick another row for the same company (or change your Session Default company), then Activate for Desk or Apply to Desk → Save.","Desk سمة is per شركة: one نشط row per شركة. إلى switch again, pick another row لـ the same شركة (or change your Session افتراضي شركة), then Activate لـ Desk or Apply إلى Desk → Save."
-Desk theme runtime disabled. Reload the page.,Desk سمة runtime disabled. Reload the page.
-Desk theme runtime enabled. Reload the page.,Desk سمة runtime enabled. Reload the page.
-Desk theme runtime is off,Desk سمة runtime is off
-Desk theme runtime was turned on. Reloading the page…,Desk سمة runtime was turned on. Reloading the page …
-Desk theme runtime: off,Desk سمة runtime: off
-Desk theme runtime: on,Desk سمة runtime: on
-Diff vs active public theme,Diff vs نشط public سمة
-Disable desk theme,Disable desk سمة
-"Disable desk theme runtime first, then remove the runtime app.","Disable desk سمة runtime first, then remove the runtime app."
-Disables ERPGenEx desk styling on this site and reloads the page. Same as “Disable desk theme” in site config.,Disables ERPGen Ex desk styling on this موقع و reloads the page. Same as “ Disable desk سمة ” in موقع config.
-Download started.,Download started.
-Each row is one saved theme for a company. Activating for Desk only marks that row active; other rows are kept.,Each row is one saved سمة لـ a شركة. Activating لـ Desk only marks that row نشط; other rows are kept.
-Enable desk theme,Enable desk سمة
-ERPGenEx desk CSS/JS are not loaded for this site until the runtime is enabled.,ERPGen Ex desk CSS JS are not loaded لـ this موقع until the runtime is enabled.
-Existing theme name (optional),Existing سمة اسم (optional)
-Experience Tenant Theme,تجربة مستأجر سمة
-Export JSON,Export JSON
-File must be UTF-8 text.,File must be UTF - 8 text.
-Frappe default desk,Frappe افتراضي desk
-Frappe default desk (whole site),Frappe افتراضي desk (whole موقع)
+Accounting,المحاسبة
+Accounts Payable,الذمم الدائنة
+Accounts Receivable,الذمم المدينة
+Actions,إجراءات
+Administrator,المسؤول
+Agriculture,الزراعة
+AI & Intelligence,الذكاء الاصطناعي والتحليلات
+All,الكل
+All activities,كل الأنشطة
+All branches,كل الفروع
+ALM,إدارة الأصول والخصوم
+"App {0} is not available on this bench. Add it under apps/ and apps.txt, then try again.",بند واجهة
+Asset Insurance,تأمين الأصول
+Assigned To,مُسند إلى
+Assigned To Me,المُسند إليّ
+Attachments,المرفقات
+Audit,التدقيق
+Balance Sheet,الميزانية العمومية
+Bank Unmatched Statement Lines,بنود كشف بنك غير مطابقة
+Billing & collections,الفوترة والتحصيل
+Bookings & registration,الحجوزات والتسجيل
+BOQ,جدول الكميات
+Branch,الفرع
+Budget & cost control,الميزانية وضبط التكلفة
+Buy,المشتريات
+CAM & recoveries,المصاريف المشتركة والاستردادات
+CAM Budget,ميزانية المصاريف المشتركة
+Campaign ROI,عائد الحملة
+Cancel,إلغاء
+Cannot enable runtime theme: app {0} is not installed on this site.,بند واجهة
+Cannot uninstall {0}: required by {1}. Remove those apps from the site first.,بند واجهة
+Car Rental,تأجير السيارات
+Card Break,قسم
+Chart,مخطط
+Chart of Accounts,دليل الحسابات
+Choose a file first.,بند واجهة
+Closed,مغلق
+Commission Accrual,استحقاق العمولات
+Commission Schedule,جدول العمولات
+Company,الشركة
+Completed,مكتمل
+Compliance checks complete,اكتملت فحوصات الامتثال
+Compliance Exceptions,استثناءات الامتثال
+Compliance Exceptions (IFRS),استثناءات الامتثال (IFRS)
+Compliance Exceptions (Tax),استثناءات الامتثال (ضريبي)
+Compliance Exceptions Dashboard,لوحة استثناءات الامتثال
+Compliance Reports,تقارير الامتثال
+Construction,المقاولات
+Construction & Engineering,المقاولات والهندسة
+Consumer Finance,التمويل الاستهلاكي
+Core ERP,ERP الأساسي
+Cost Center,مركز التكلفة
+Country,الدولة
+Create,إنشاء
+Create or review your first **Experience Tenant Theme** record from this workspace.,أنشئ أو راجع أول سجل **سمة المستأجر** من مساحة العمل هذه.
+Credit Engine,محرك الائتمان
+Credit Risk,مخاطر الائتمان
+CRM,إدارة العملاء
+Cross-module operations,عمليات متكاملة
+Currency,العملة
+Custom Documents,المستندات المخصصة
+Customer,العميل
+Dashboard,لوحة معلومات
+Delete,حذف
+Design & quantities (BOQ),التصميم والكميات (جدول الكميات)
+Desk,المكتب
+Development Budget,ميزانية التطوير
+Development Project,مشروع تطوير
+Development Project Register,سجل مشاريع التطوير
+Development project register,سجل مشاريع التطوير
+"Disable desk theme runtime first, then remove the runtime app.",بند واجهة
+Documents & Integration,المستندات والتكامل
+E-Invoice,الفاتورة الإلكترونية
+Edit,تعديل
+Education,التعليم
+Engineering Consulting,الاستشارات الهندسية
+Erpgenex Property Mgmt,إدارة العقارات
+Erpgenex Realestate Dev,التطوير العقاري
+Erpgenex Realestate Sales,التسويق العقاري
+ERPGENEX — Core ERP,ERPGENEX — ERP الأساسي
+ERPGENEX — Dashboard,ERPGENEX — لوحة المعلومات
+Escalation Rule,قاعدة تصعيد الإيجار
+Event,حدث
+Executive Dashboard,لوحة المدير التنفيذية
+Explore this workspace,استكشف مساحة العمل
+Factoring,التخصيم
+Field PWA,تطبيق الميدان
+File must be UTF-8 text.,يجب أن ملف بند واجهة.
+Filters,المرشحات
+Finance Control Exceptions,استثناءات الضوابط المالية
+Finance Control Violations,مخالفات الضوابط المالية
+Finance Controls,الضوابط المالية
+Finance Engine,محرك التمويل
+Finance Group,المجموعة المالية
+Finance SoD Blocks,حظر فصل المهام (SoD)
+Finance Workcenter,مركز عمل المالية
+Fixed Assets,الأصول الثابتة
+Form,نموذج
+Further,المزيد
+General Ledger,دفتر الأستاذ العام
+Get started with Experience Tenant Theme,بند واجهة
+GL Account,حساب GL
+Global Defaults,الإعدادات العامة
+Governance,الحوكمة
+Governance Overview,نظرة عامة على الحوكمة
+Guest,زائر
+Handover & defects (snagging),التسليم والعيوب
+Handover Package,حزمة التسليم
+Healthcare,الرعاية الصحية
 Help,مساعدة
-How themes work,How themes work
-Import,Import
-Import theme from clipboard,Import سمة from clipboard
-Install the ERPGenEx desk theme app on this site? This may take a minute and runs database updates.,Install the ERPGen Ex desk سمة app on this موقع ? This may take a minute و runs database updates.
-Install theme app on site,Install سمة app on موقع
-Invalid JSON in file.,Invalid JSON in file.
-Invalid JSON.,Invalid JSON.
-JSON,JSON
-JSON file,JSON file
-JSON root must be an object.,JSON root must be an object.
-Leave empty to create a new document (company must be present in JSON).,Leave empty إلى create a جديد مستند (شركة must be present in JSON).
-"Leave empty to create a new theme. If set, values from the file update that document.","Leave empty إلى create a جديد سمة. If set, values from the file تحديث that مستند."
-Login required.,Login required.
-Merge into existing theme (optional),Merge into existing سمة (optional)
-New tenant theme,جديد مستأجر سمة
-No active published theme for this company.,No نشط published سمة لـ this شركة.
-No differences.,No differences.
-Not permitted,Not permitted
-Open a theme record to upload a logo and adjust colors. Contrast rules protect readability.,مفتوح a سمة سجل إلى upload a logo و adjust colors. Contrast rules protect readability.
-Open desk theme studio,مفتوح desk سمة studio
-Open theme list,مفتوح سمة قائمة
-Paste JSON,Paste JSON
-Personal tweaks,Personal tweaks
-Phrase does not match. No changes.,Phrase does not match. No changes.
-"Pick a company, choose a preset, then adjust colours. Save with “Apply to Desk” checked, or use “Activate for Desk” after saving.","Pick a شركة, choose a preset, then adjust colours. Save with “ Apply إلى Desk ” checked, or use “ Activate لـ Desk ” after saving."
-Preset,Preset
-Preview HTML head,Preview HTML head
-Primary,Primary
-Public website,Public website
-Publish history,Publish history
-Publish to public site,Publish إلى public موقع
-Reload desk colours,Reload desk colours
-Reload the page after saving a theme with “Apply to Desk”.,Reload the page after saving a سمة with “ Apply إلى Desk ”.
-Remove the desk theme app from this site? A backup may run first. You cannot remove it while other installed apps list it as a dependency.,Remove the desk سمة app from this موقع ? A نسخ احتياطي may run first. You cannot remove it while other installed apps قائمة it as a dependency.
-Remove theme app from site,Remove سمة app from موقع
-Rollback previous public,Rollback previous public
-Rolled back to previous public theme.,Rolled back إلى previous public سمة.
-Save & switch,Save & switch
-Select exactly one theme row first.,Select exactly one سمة row first.
-Select only one theme at a time.,Select only one سمة at a time.
-Set this document as the active Desk theme for its company? Other saved themes stay available.,Set this مستند as the نشط Desk سمة لـ its شركة ? Other saved themes stay متاح.
-Set this theme as the active Desk look for its company? Other saved themes stay available—you can switch back anytime.,Set this سمة as the نشط Desk look لـ its شركة ? Other saved themes stay متاح — you can switch back anytime.
-Standard Frappe Desk enabled. Reloading…,Standard Frappe Desk enabled. Reloading …
-Surface,Surface
-Theme,سمة
-Theme app installed. Reload the page.,سمة app installed. Reload the page.
-Theme app removed from site. Reload the page.,سمة app removed from موقع. Reload the page.
-Theme company,سمة شركة
-Theme imported successfully.,سمة imported successfully.
-Theme Manager,سمة مدير
-Theme Manager was uninstalled from this site. Reload or navigate away.,سمة مدير was uninstalled from this موقع. Reload or navigate away.
-Theme preview,سمة preview
-Theme published.,سمة published.
-Theme saved. Reload the page (Ctrl+Shift+R) if the Desk look did not update — the theme script may still be loading.,سمة saved. Reload the page (Ctrl + Shift + R) if the Desk look did not تحديث — the سمة script may still be loading.
-Theme stack & app,سمة stack & app
-Theme studio is still loading. Wait a moment or refresh the page.,سمة studio is still loading. Wait a moment or refresh the page.
-This sets the site to use the standard Frappe Desk (disables the ERPGenEx desk theme). All users will see the default Frappe look after reload. Continue?,This sets the موقع إلى use the standard Frappe Desk (disables the ERPGen Ex desk سمة). All users will see the افتراضي Frappe look after reload. Continue ?
-tm-executive-dashboard,tm - تنفيذي - لوحة معلومات
-"To confirm, type exactly: {0}","إلى confirm, نوع exactly: { 0 }"
-Tools,Tools
-Turn off ERPGenEx desk styling and use the standard Frappe Desk (site-wide).,Turn off ERPGen Ex desk styling و use the standard Frappe Desk (موقع - wide).
-"Turn the ERPGenEx desk theme on or off for this site, and install or remove the theme app on this site. System Manager only.","Turn the ERPGen Ex desk سمة on or off لـ this موقع, و install or remove the سمة app on this موقع. النظام مدير only."
-Uninstall,Uninstall
-Uninstall Theme Manager,Uninstall سمة مدير
-Uninstall Theme Manager app…,Uninstall سمة مدير app …
-Upload,Upload
-Upload theme (.json),Upload سمة (. json)
-Upload theme file,Upload سمة file
-Uploaded file was not found. Try attaching again.,Uploaded file was not found. Try attaching again.
-Use standard Frappe Desk (default theme),Use standard Frappe Desk (افتراضي سمة)
-Use “Theme stack & app” below to turn the desk theme on.,Use “ سمة stack & app ” below إلى turn the desk سمة on.
-Use “Upload theme file” with a JSON export from this system (or a compatible snapshot). Your data is validated before save.,Use “ Upload سمة file ” with a JSON export from this النظام (or a compatible لقطة). Your بيانات is validated before save.
-Using defaults (no row with “Apply to Desk”),Using defaults (no row with “ Apply إلى Desk ”)
-Your default company,Your افتراضي شركة
+Home,الرئيسية
+HR,الموارد البشرية
+IFRS 16 Liability,التزام الإيجار IFRS 16
+In Progress,قيد التنفيذ
+Industry Solutions,حلول القطاعات
+Insights,رؤى وتحليلات
+Invalid JSON in file.,JSON — بند واجهة
+Inventory & development context,المخزون وسياق التطوير
+Inventory KPI Dashboard,لوحة مؤشرات المخزون
+Inventory KPIs,مؤشرات المخزون
+Inventory Low Stock Items,أصناف منخفضة المخزون
+Inventory Reorder Needed,أصناف تحتاج إعادة طلب
+Inventory Stock Items,أصناف المخزون
+Item,الصنف
+Journal Entry,قيد يومية
+JSON root must be an object.,يجب أن JSON — بند واجهة بند واجهة.
+Land & project charter,الأرض وميثاق المشروع
+Land Parcel,قطعة أرض
+Language,اللغة
+Last Month,الشهر الماضي
+Last Week,الأسبوع الماضي
+Lead acquisition & qualification,اكتساب العملاء وتأهيلهم
+Leasing & occupancy (IFRS 16 / IPSAS rent),التأجير والإشغال (IFRS 16 / IPSAS)
+Leasing Finance,التمويل التأجيري
+Leasing Mandate,تفويض تأجير
+Legal,القانون
+Legal Appointment,موعد قانوني
+Legal Case,قضية قانونية
+Legal Client,عميل قانوني
+Legal Consultation,استشارة قانونية
+Legal Matter,ملف قانوني
+List,قائمة
+Login,تسجيل الدخول
+Login required.,تسجيل الدخول مطلوب.
+Logout,تسجيل الخروج
+Maintenance — service requests,الصيانة — طلبات الخدمة
+Management Agreement,اتفاقية إدارة
+Manufacturing,التصنيع
+Menu,القائمة
+Mortgage Finance,التمويل العقاري
+My work,عملي
+New,جديد
+None,لا شيء
+Not permitted,بند واجهة
+Notifications,الإشعارات
+Number Card,بطاقة رقمية
+Occupancy,الإشغال
+Omnexa Accounting Settings,إعدادات محاسبة Omnexa
+Omnexa Marketplace Settings,إعدادات سوق Omnexa
+Omnexa Purchase Settings,إعدادات مشتريات Omnexa
+Omnexa Sales Settings,إعدادات مبيعات Omnexa
+Omnexa Settings,إعدادات Omnexa
+Omnexa Stock Settings,إعدادات مخزون Omnexa
+Open,مفتوح
+Open report Compliance Exceptions Dashboard,فتح تقرير لوحة استثناءات الامتثال
+Operating Scenarios,سيناريوهات التشغيل
+Operational Risk,المخاطر التشغيلية
+Other,أخرى
+Overdue,متأخر
+Owner reporting & trust accounting,تقارير الملاك والحسابات الائتمانية
+Owner Statement,كشف حساب المالك
+Payment Entry,سند قبض/صرف
+Payment Plan Item,بند خطة السداد
+Pending,قيد الانتظار
+Permit Milestone,معلم التصريح
+Platform & Administration,المنصة والإدارة
+PMC Lease Liability Schedule,جدول التزام الإيجار IFRS 16
+PMC Leasing Mandate,تفويض تأجير
+PMC Management Agreement,اتفاقية إدارة
+PMC Management Fee Summary,ملخص رسوم الإدارة
+PMC Occupancy Summary,ملخص الإشغال
+PMC Owner Statement,كشف حساب المالك
+PMC Owner Statement Register,سجل كشوف الملاك
+PMC Property,عقار
+PMC Property Unit,وحدة عقارية
+PMC Rent Aging,أعمار الإيجارات
+PMC Rent Billing Register,سجل فوترة الإيجار
+PMC Rent Roll,سجل الإيجارات
+PMC Rental Contract Register,سجل عقود الإيجار
+Portfolio & asset registry,المحفظة وسجل الأصول
+Profile,الملف الشخصي
+Profit and Loss,الأرباح والخسائر
+Project EV,القيمة المكتسبة للمشروع
+Projects & Services,المشاريع والخدمات
+Projects PM,إدارة المشاريع
+Property,عقار
+Property Management,إدارة العقارات
+Property Sales Booking Register,سجل حجوزات البيع
+Property Sales Lead,عميل مبيعات عقارية
+Purchase Invoice,فاتورة شراء
+Purchase Register,سجل المشتريات
+RE BOQ,جدول كميات التطوير
+RE Development,التطوير العقاري
+RE Handover Package,حزمة التسليم
+RE Marketing,التسويق العقاري
+RE Permit Milestone,معلم التصريح
+RE Project EV,القيمة المكتسبة للمشروع
+RE Subcontract Commitment,التزام مقاول باطن
+RE Unit Inventory,مخزون وحدات التطوير
+RE unit inventory (sales),مخزون وحدات البيع
+RE Unit Inventory Overview,نظرة عامة على مخزون الوحدات
+Real Estate,العقارات
+Refresh,تحديث
+Reload,إعادة تحميل
+Rent Aging,أعمار الإيجارات
+Rent billing register,سجل فوترة الإيجار
+Rent Billing Run,تشغيل فوترة الإيجار
+Rent Roll,سجل الإيجارات
+Rental Contract,عقد إيجار
+Rental contract register,سجل عقود الإيجار
+Report,تقرير
+Reservation register,سجل الحجوزات
+Reservations & unit holds,الحجوزات وحجز الوحدات
+Restaurant,المطاعم
+"Return here for shortcuts, charts, and lists for **Audit & Compliance**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **التدقيق والامتثال**.
+"Return here for shortcuts, charts, and lists for **Core ERP**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **ERP الأساسي**.
+"Return here for shortcuts, charts, and lists for **Theme Manager**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **بند واجهة**.
+Sales Booking,حجز بيع
+Sales booking register,سجل حجوزات البيع
+Sales Commission Accrual,استحقاق عمولات المبيعات
+Sales Commission Schedule,جدول عمولات المبيعات
+Sales Invoice,فاتورة مبيعات
+Sales Lead,عميل محتمل
+Sales Portal,بوابة المبيعات
+Sales Register,سجل المبيعات
+Save,حفظ
+Search or type a command,ابحث أو اكتب أمرًا
+Search or type a command ({0}),ابحث أو اكتب أمرًا ({0})
+Sell,المبيعات
+Services,الخدمات
+Settings,الإعدادات
+Shortcut,اختصار
+SME Microfinance,التمويل متناهي الصغر
+SME Retail Finance,تمويل المنشآت والتجزئة
+Stock,المخزون
+Subcontract,مقاول باطن
+Submit,إرسال
+Supplier,المورد
+System Manager,مدير النظام
+Task List,قائمة المهام
+Theme,بند واجهة
+Theme Manager,بند واجهة
+This Month,هذا الشهر
+This Week,هذا الأسبوع
+Timezone,المنطقة الزمنية
+"To confirm, type exactly: {0}",بند واجهة
+Today,اليوم
+ToDo,مهمة
+Tourism,السياحة
+Trading,التجارة
+Trading & Manufacturing,التجارة والتصنيع
+Trial Balance,ميزان المراجعة
+Unit,وحدة
+Unit Inventory,مخزون الوحدات
+Unit inventory & sales readiness,مخزون الوحدات وجاهزية البيع
+Unit inventory overview,نظرة عامة على مخزون الوحدات
+Unit Reservation,حجز وحدة
+Unit Reservation Register,سجل حجز الوحدات
+Update,تحديث
+Uploaded file was not found. Try attaching again.,بند واجهة
+Vehicle Finance,تمويل المركبات
+Warehouse,المستودع
+Workspace,مساحة العمل
+Workspaces,مساحات العمل
+Yesterday,أمس
+You are ready to work in Core ERP.,أنت جاهز للعمل في ERP الأساسي.
+✅ Handover,✅ التسليم
+🎯 CRM,🎯 إدارة العملاء
+🏗️ Projects,🏗️ المشاريع
+🏢 Organization,🏢 التنظيم والإعداد
+🏢 Organization & Setup,🏢 التنظيم والإعداد
+🏢 Portfolio,🏢 المحفظة العقارية
+👥 HR & Users,👥 الموارد البشرية والمستخدمون
+💰 Billing · Finance · ERP,💰 الفوترة · المالية · ERP
+💰 Commissions,💰 العمولات
+💰 Finance & ERP,💰 المالية · ERP
+💰 Owner & CAM,💰 المالك والمصاريف المشتركة
+📈 Reports,📈 التقارير
+📊 Analytics,📊 التحليلات
+📊 Dashboards,📊 لوحات المعلومات
+📊 Dashboards & Portals,📊 لوحات المعلومات والبوابات
+📊 Dashboards & portals,📊 لوحات المعلومات والبوابات
+📋 Commercial,📋 التجاري
+📋 Leasing,📋 التأجير
+📋 Operations,📋 العمليات
+📐 BOQ & inventory,📐 جدول الكميات والمخزون
+📦 Inventory & Supply,📦 المخزون والتوريد
+🔗 Integration,🔗 التكامل
+🚚 Field operations,🚚 العمليات الميدانية
+🛡️ Compliance,🛡️ الامتثال
